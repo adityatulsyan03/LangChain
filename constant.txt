@@ -1,0 +1,2 @@
+GOOGLE_API_KEY="Your API KEY"
+Geminimodel=gemini-2.0-flash-exp
