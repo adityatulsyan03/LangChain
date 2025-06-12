@@ -9,6 +9,7 @@ messages = []
 
 def set_role():
     role = input("What role do you want the AI to play: ")
+    messages.clear()  # Clear previous messages
     line = f"You are an expert in {role}"  # using f-string for clarity
     messages.append(SystemMessage(line))
     
